@@ -73,7 +73,9 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
         src={image}
         alt={name}
         width="100%"
-        my="auto"
+        height="auto"
+        display="block"
+        margin="auto" // 同時將水平和垂直方向的邊距都設置為 auto，實現置中
         opacity={pro ? 0.6 : 1}
       />
     </MKBox>
@@ -93,11 +95,6 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
           {name && (
             <MKTypography variant="h6" fontWeight="bold">
               {name}
-            </MKTypography>
-          )}
-          {count > 0 && (
-            <MKTypography variant="button" fontWeight="regular" color="secondary">
-              {count} {count === 1 ? "Example" : "Examples"}
             </MKTypography>
           )}
         </MKBox>

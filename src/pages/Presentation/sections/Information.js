@@ -54,7 +54,7 @@ function Information() {
                 title="Chelsie Lin"
                 description="creating products means creating value."
                 action={{
-                  type: "external",
+                  type: "internal",
                   href: "https://www.linkedin.com/in/chelsielin/",
                   label: "See my Linkedin",
                 }}
