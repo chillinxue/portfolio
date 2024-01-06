@@ -27,14 +27,14 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
 
-function RotatingCard({ color, image, title, description, action }) {
+function RotatingCard({ image, title, description, action }) {
   return (
     <MKBox
       display="flex"
       justifyContent="center"
       alignItems="center"
       borderRadius="lg"
-      coloredShadow={color}
+      coloredShadow={"#F47CB9"}
       position="absolute"
       width="100%"
       height="100%"
@@ -42,11 +42,8 @@ function RotatingCard({ color, image, title, description, action }) {
       left={0}
       zIndex={5}
       sx={{
-        backgroundImage: ({ palette: { gradients }, functions: { linearGradient, rgba } }) =>
-          `${linearGradient(
-            rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.85),
-            rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.85)
-          )}, url(${image})`,
+        backgroundImage: ({ functions: { linearGradient, rgba } }) =>
+          `${linearGradient(rgba("#F47CB9", 0.85), rgba("#F47CB9", 0.85))}, url(${image})`,
         backgroundSize: "cover",
         backfaceVisibility: "hidden",
         transform: "rotateY(180deg)",
