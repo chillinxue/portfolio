@@ -65,33 +65,65 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  // icon="content_copy"
+                  title="Introduction"
+                  description={
+                    <>
+                      A product developer with an advertising background, driven by a strong passion
+                      to create innovative experiences and human-centric products to contribute to
+                      society.
+                      <br />
+                    </>
+                  }
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  // icon="flip_to_front"
+                  title="Education"
+                  description={
+                    <>
+                      National ChengChi University <br />
+                      B.A. Advertising,
+                      <br />
+                      Graduated Summa Cum Laude
+                      <br />
+                      <br />• Exchange Program :
+                      <br /> Sun Yat-sen University(SYSU)
+                      <br /> Renmin University of China(RUC)
+                    </>
+                  }
                 />
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  // icon="price_change"
+                  title="Working Experience"
+                  description={
+                    <>
+                      • LINE Bank Taiwan <br />
+                      Chatbot Product Manager
+                      <br />
+                      • AppWorks School (boot camp)
+                      <br /> Front-end Enigneer
+                    </>
+                  }
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  // icon="devices"
+                  title="Contact Info"
+                  description={
+                    <>
+                      Email: chelsie.xue@gmail.com
+                      <br />
+                      Phone: +886 986-656-196
+                      <br /> 📍 Location: Taiwan
+                    </>
+                  }
                 />
               </Grid>
             </Grid>
