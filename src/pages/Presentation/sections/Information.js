@@ -27,7 +27,7 @@ import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 // Images
-import bgFront from "assets/images/rotating-card-bg-front.jpeg";
+// import bgFront from "assets/images/rotating-card-bg-front.jpeg";
 import bgBack from "assets/images/rotating-card-bg-back.jpeg";
 
 function Information() {
@@ -38,25 +38,25 @@ function Information() {
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
-                image={bgFront}
-                icon="touch_app"
+                image="https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChelsie%20linkedin%20photo.jpg?alt=media&token=f12439be-25ed-42db-9355-ff2f04c538eb"
+                // icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    {/* Feel the
                     <br />
-                    Material Kit
+                    Material Kit */}
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                // description="All the MUI components that you need in a development have been re-design with the new look."
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Chelsie Lin"
+                description="creating products means creating value."
                 action={{
-                  type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  type: "external",
+                  href: "https://www.linkedin.com/in/chelsielin/",
+                  label: "See my Linkedin",
                 }}
               />
             </RotatingCard>

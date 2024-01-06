@@ -29,7 +29,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 // import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
-import Counters from "pages/Presentation/sections/Counters";
+// import Counters from "pages/Presentation/sections/Counters";
 import Information from "pages/Presentation/sections/Information";
 import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 import Pages from "pages/Presentation/sections/Pages";
@@ -44,7 +44,7 @@ import Pages from "pages/Presentation/sections/Pages";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+// import bgImage from "assets/images/bg-presentation.jpg";
 
 function Presentation() {
   return (
@@ -63,7 +63,7 @@ function Presentation() {
         minHeight="75vh"
         width="100%"
         sx={{
-          backgroundImage: `url(${bgImage})`,
+          backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FHome.png?alt=media&token=aab24d0b-afbf-4d99-b94a-f9e031d812e0')`,
           backgroundSize: "cover",
           backgroundPosition: "top",
           display: "grid",
@@ -83,7 +83,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              {/* Material Kit 2 React{" "} */}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -92,8 +92,8 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              {/* Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
+              developers around the world. */}
             </MKTypography>
           </Grid>
         </Container>
@@ -109,7 +109,7 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Counters />
+        {/* <Counters /> */}
         <Information />
         <DesignBlocks />
         <Pages />
