@@ -23,11 +23,11 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+// import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Routes
-import routes from "routes";
+// import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
@@ -37,7 +37,7 @@ function ContactUs() {
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
-        <DefaultNavbar
+        {/* <DefaultNavbar
           routes={routes}
           action={{
             type: "external",
@@ -45,7 +45,7 @@ function ContactUs() {
             label: "free download",
             color: "info",
           }}
-        />
+        /> */}
       </MKBox>
       <Grid container spacing={3} alignItems="center">
         <Grid item xs={12} lg={6}>

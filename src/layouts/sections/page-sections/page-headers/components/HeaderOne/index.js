@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
+// import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 
 // Material Kit 2 React components
@@ -25,7 +25,7 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/bg-coworking.jpeg";
+// import bgImage from "assets/images/bg-coworking.jpeg";
 
 function HeaderOne() {
   return (
@@ -33,7 +33,7 @@ function HeaderOne() {
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
         <Container>
           <Grid container flexDirection="row" alignItems="center">
-            <MKTypography
+            {/* <MKTypography
               component={Link}
               href="#"
               variant="button"
@@ -50,7 +50,7 @@ function HeaderOne() {
               sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
             >
               <MKBox component="i" color="white" className="fas fa-bars" />
-            </MKButton>
+            </MKButton> */}
             <MKBox
               component="ul"
               display={{ xs: "none", lg: "flex" }}
@@ -59,7 +59,7 @@ function HeaderOne() {
               mx="auto"
               sx={{ listStyle: "none" }}
             >
-              <MKBox component="li">
+              {/* <MKBox component="li">
                 <MKTypography
                   component={Link}
                   href="#"
@@ -71,8 +71,8 @@ function HeaderOne() {
                 >
                   Home
                 </MKTypography>
-              </MKBox>
-              <MKBox component="li">
+              </MKBox> */}
+              {/* <MKBox component="li">
                 <MKTypography
                   component={Link}
                   href="#"
@@ -84,8 +84,8 @@ function HeaderOne() {
                 >
                   About Us
                 </MKTypography>
-              </MKBox>
-              <MKBox component="li">
+              </MKBox> */}
+              {/* <MKBox component="li">
                 <MKTypography
                   component={Link}
                   href="#"
@@ -97,9 +97,9 @@ function HeaderOne() {
                 >
                   Contact Us
                 </MKTypography>
-              </MKBox>
+              </MKBox> */}
             </MKBox>
-            <MKBox
+            {/* <MKBox
               component="ul"
               display={{ xs: "none", lg: "flex" }}
               p={0}
@@ -139,7 +139,7 @@ function HeaderOne() {
                   <MKBox component="i" color="white" className="fab fa-instagram" />
                 </MKTypography>
               </MKBox>
-            </MKBox>
+            </MKBox> */}
           </Grid>
         </Container>
       </MKBox>
@@ -152,7 +152,7 @@ function HeaderOne() {
             `${linearGradient(
               rgba(gradients.dark.main, 0.5),
               rgba(gradients.dark.state, 0.5)
-            )}, url(${bgImage})`,
+            )}, url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FHanabiWebsite.png?alt=media&token=88f1d2d2-7c72-4a36-a6ba-7eebcd606079")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -169,14 +169,25 @@ function HeaderOne() {
                 },
               })}
             >
-              Material Kit
+              HANABI
             </MKTypography>
-            <MKTypography variant="body1" color="white" opacity={0.8} pr={6} mr={6}>
-              The time is now for it be okay to be great. People in this world shun people for being
-              nice.
+            <MKTypography
+              variant="body1"
+              color="white"
+              opacity={0.9}
+              pr={6}
+              mr={6}
+              sx={{
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)", // 調整陰影的偏移和模糊度
+              }}
+            >
+              A travel website offering one-page solution using Google Maps API for route search and
+              itinerary planning.
             </MKTypography>
             <Stack direction="row" spacing={1} mt={3}>
-              <MKButton color="white">Get Started</MKButton>
+              <MKButton color="white" href="https://hanabi-f5ee3.web.app/home">
+                Go to Website
+              </MKButton>
               <MKButton variant="text" color="white">
                 Read more
               </MKButton>

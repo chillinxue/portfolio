@@ -20,7 +20,7 @@ import Card from "@mui/material/Card";
 import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+// import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Author page sections
 import Profile from "pages/LandingPages/Author/sections/Profile";
@@ -29,7 +29,7 @@ import Contact from "pages/LandingPages/Author/sections/Contact";
 import Footer from "pages/LandingPages/Author/sections/Footer";
 
 // Routes
-import routes from "routes";
+// import routes from "routes";
 
 // Images
 import bgImage from "assets/images/city-profile.jpg";
@@ -37,7 +37,7 @@ import bgImage from "assets/images/city-profile.jpg";
 function Author() {
   return (
     <>
-      <DefaultNavbar
+      {/* <DefaultNavbar
         routes={routes}
         action={{
           type: "external",
@@ -47,7 +47,7 @@ function Author() {
         }}
         transparent
         light
-      />
+      /> */}
       <MKBox bgColor="white">
         <MKBox
           minHeight="25rem"

@@ -19,6 +19,7 @@ import View from "layouts/sections/components/View";
 
 // PageHeaders page components
 import HeaderOne from "layouts/sections/page-sections/page-headers/components/HeaderOne";
+import HeaderTwo from "layouts/sections/page-sections/page-headers/components/HeaderTwo";
 
 // PageHeaders page components code
 import headerOneCode from "layouts/sections/page-sections/page-headers/components/HeaderOne/code";
@@ -26,14 +27,17 @@ import headerOneCode from "layouts/sections/page-sections/page-headers/component
 function PageHeaders() {
   return (
     <BaseLayout
-      title="Page Headers"
+      title="Travel Planning Website - HANABI"
       breadcrumb={[
         { label: "Page Sections", route: "/sections/page-sections/page-headers" },
-        { label: "Page Headers" },
+        { label: "hanabi" },
       ]}
     >
-      <View title="Header 1" code={headerOneCode} height="40rem">
+      <View title="Feature Introduction" code={headerOneCode} height="40rem">
         <HeaderOne />
+      </View>
+      <View title="Main Page">
+        <HeaderTwo />
       </View>
     </BaseLayout>
   );

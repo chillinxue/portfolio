@@ -32,15 +32,15 @@ export default [
       },
       {
         image: `${hanabiWebsite}`,
-        name: "Features",
+        name: "Travel Planning Website - HANABI",
         count: 14,
-        route: "/sections/page-sections/features",
+        route: "/sections/page-sections/page-headers",
       },
       {
         image: `${hanabiWebsite}/pricing.jpg`,
         name: "Pricing",
         count: 8,
-        pro: true,
+        route: "/sections/page-sections/features",
       },
       {
         image: `${hanabiWebsite}/faq.jpg`,
