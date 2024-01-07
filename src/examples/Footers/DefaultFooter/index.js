@@ -14,7 +14,7 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // prop-types is a library for typechecking of props.
 import PropTypes from "prop-types";
@@ -25,23 +25,24 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+// import MKTypography from "components/MKTypography";
 
 function DefaultFooter({ content }) {
+  // eslint-disable-next-line no-unused-vars
   const { brand, socials, menus, copyright } = content;
 
   return (
     <MKBox component="footer">
       <Container>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={3} sx={{ ml: "auto", mb: 3 }}>
-            <MKBox>
+          {/* <Grid item xs={12} md={3} sx={{ ml: "auto", mb: 3 }}> */}
+          {/* <MKBox>
               <Link to={brand.route}>
                 <MKBox component="img" src={brand.image} alt={brand.name} maxWidth="2rem" mb={2} />
               </Link>
               <MKTypography variant="h6">{brand.name}</MKTypography>
-            </MKBox>
-            <MKBox display="flex" alignItems="center" mt={3}>
+            </MKBox> */}
+          {/* <MKBox display="flex" alignItems="center" mt={3}>
               {socials.map(({ icon, link }, key) => (
                 <MKTypography
                   key={link}
@@ -57,9 +58,9 @@ function DefaultFooter({ content }) {
                   {icon}
                 </MKTypography>
               ))}
-            </MKBox>
-          </Grid>
-          {menus.map(({ name: title, items }) => (
+            </MKBox> */}
+          {/* </Grid> */}
+          {/* {menus.map(({ name: title, items }) => (
             <Grid key={title} item xs={6} md={2} sx={{ mb: 3 }}>
               <MKTypography
                 display="block"
@@ -100,7 +101,7 @@ function DefaultFooter({ content }) {
                 ))}
               </MKBox>
             </Grid>
-          ))}
+          ))} */}
           <Grid item xs={12} sx={{ textAlign: "center", my: 3 }}>
             {copyright}
           </Grid>

@@ -17,6 +17,10 @@ const lineBankChatbot =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FLINE%20Bank%20Chatbot.png?alt=media&token=9d567812-8f41-4cf0-becf-4c330de79658";
 const hanabiWebsite =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FHanabiWebsite.png?alt=media&token=88f1d2d2-7c72-4a36-a6ba-7eebcd606079";
+const stylish =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2F%E6%88%AA%E5%9C%96%202024-01-07%20%E4%B8%8B%E5%8D%887.54.14.png?alt=media&token=0481f94c-01ab-48bf-9395-29c82c96ceb9";
+const loveVR =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fimg_1_1704627459337.jpg?alt=media&token=3e3adae8-cd67-4b8f-b987-be0f6ef51ca9";
 
 export default [
   {
@@ -37,167 +41,167 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: `${hanabiWebsite}/pricing.jpg`,
-        name: "Pricing",
+        image: `${stylish}`,
+        name: "E-commerce Website - STYLiSH",
         count: 8,
-        route: "/sections/page-sections/features",
+        route: "https://fir-hosting-service-84127.web.app/products.html",
       },
       {
-        image: `${hanabiWebsite}/faq.jpg`,
-        name: "FAQ",
+        image: `${loveVR}`,
+        name: "VR Game: Love 360",
         count: 1,
-        pro: true,
+        route: "https://www.youtube.com/watch?v=BjERzl_cCZU",
       },
     ],
   },
-  {
-    title: "Navigation",
-    description: "30+ components that will help go through the pages",
-    items: [
-      {
-        image: `${hanabiWebsite}/navbars.jpg`,
-        name: "Navbars",
-        count: 4,
-        route: "/sections/navigation/navbars",
-      },
-      {
-        image: `${hanabiWebsite}/nav-tabs.jpg`,
-        name: "Nav Tabs",
-        count: 2,
-        route: "/sections/navigation/nav-tabs",
-      },
-      {
-        image: `${hanabiWebsite}/pagination.jpg`,
-        name: "Pagination",
-        count: 3,
-        route: "/sections/navigation/pagination",
-      },
-    ],
-  },
-  {
-    title: "Input Areas",
-    description: "50+ elements that you need for text manipulation and insertion",
-    items: [
-      {
-        image: `${hanabiWebsite}/newsletters.jpg`,
-        name: "Newsletters",
-        count: 6,
-        pro: true,
-      },
-      {
-        image: `${hanabiWebsite}/contact-sections.jpg`,
-        name: "Contact Sections",
-        count: 8,
-        pro: true,
-      },
-      {
-        image: `${hanabiWebsite}/forms.jpg`,
-        name: "Forms",
-        count: 3,
-        route: "/sections/input-areas/forms",
-      },
-      {
-        image: `${hanabiWebsite}/inputs.jpg`,
-        name: "Inputs",
-        count: 6,
-        route: "/sections/input-areas/inputs",
-      },
-    ],
-  },
-  {
-    title: "Attention Catchers",
-    description: "20+ Fully coded components that popup from different places of the screen",
-    items: [
-      {
-        image: `${hanabiWebsite}/alerts.jpg`,
-        name: "Alerts",
-        count: 4,
-        route: "/sections/attention-catchers/alerts",
-      },
-      {
-        image: `${hanabiWebsite}/toasts.jpg`,
-        name: "Notifications",
-        count: 3,
-        pro: true,
-      },
-      {
-        image: `${hanabiWebsite}/popovers.jpg`,
-        name: "Tooltips & Popovers",
-        count: 2,
-        route: "/sections/attention-catchers/tooltips-popovers",
-      },
-      {
-        image: `${hanabiWebsite}/modals.jpg`,
-        name: "Modals",
-        count: 5,
-        route: "/sections/attention-catchers/modals",
-      },
-    ],
-  },
-  {
-    title: "Elements",
-    description: "80+ carefully crafted small elements that come with multiple colors and shapes",
-    items: [
-      {
-        image: `${hanabiWebsite}/buttons.jpg`,
-        name: "Buttons",
-        count: 6,
-        route: "/sections/elements/buttons",
-      },
-      {
-        image: `${hanabiWebsite}/avatars.jpg`,
-        name: "Avatars",
-        count: 2,
-        route: "/sections/elements/avatars",
-      },
-      {
-        image: `${hanabiWebsite}/dropdowns.jpg`,
-        name: "Dropdowns",
-        count: 2,
-        route: "/sections/elements/dropdowns",
-      },
-      {
-        image: `${hanabiWebsite}/switch.jpg`,
-        name: "Toggles",
-        count: 2,
-        route: "/sections/elements/toggles",
-      },
-      {
-        image: `${hanabiWebsite}/social-buttons.jpg`,
-        name: "Social Buttons",
-        count: 2,
-        pro: true,
-      },
-      {
-        image: `${hanabiWebsite}/breadcrumbs.jpg`,
-        name: "Breadcrumbs",
-        count: 1,
-        route: "/sections/elements/breadcrumbs",
-      },
-      {
-        image: `${hanabiWebsite}/badges.jpg`,
-        name: "Badges",
-        count: 3,
-        route: "/sections/elements/badges",
-      },
-      {
-        image: `${hanabiWebsite}/progress.jpg`,
-        name: "Progress Bars",
-        count: 4,
-        route: "/sections/elements/progress-bars",
-      },
-      {
-        image: `${hanabiWebsite}/tables.jpg`,
-        name: "Tables",
-        count: 3,
-        pro: true,
-      },
-      {
-        image: `${hanabiWebsite}/typography.jpg`,
-        name: "Typography",
-        count: 2,
-        route: "/sections/elements/typography",
-      },
-    ],
-  },
+  // {
+  //   title: "Navigation",
+  //   description: "30+ components that will help go through the pages",
+  //   items: [
+  //     {
+  //       image: `${hanabiWebsite}/navbars.jpg`,
+  //       name: "Navbars",
+  //       count: 4,
+  //       route: "/sections/navigation/navbars",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/nav-tabs.jpg`,
+  //       name: "Nav Tabs",
+  //       count: 2,
+  //       route: "/sections/navigation/nav-tabs",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/pagination.jpg`,
+  //       name: "Pagination",
+  //       count: 3,
+  //       route: "/sections/navigation/pagination",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Input Areas",
+  //   description: "50+ elements that you need for text manipulation and insertion",
+  //   items: [
+  //     {
+  //       image: `${hanabiWebsite}/newsletters.jpg`,
+  //       name: "Newsletters",
+  //       count: 6,
+  //       pro: true,
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/contact-sections.jpg`,
+  //       name: "Contact Sections",
+  //       count: 8,
+  //       pro: true,
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/forms.jpg`,
+  //       name: "Forms",
+  //       count: 3,
+  //       route: "/sections/input-areas/forms",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/inputs.jpg`,
+  //       name: "Inputs",
+  //       count: 6,
+  //       route: "/sections/input-areas/inputs",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Attention Catchers",
+  //   description: "20+ Fully coded components that popup from different places of the screen",
+  //   items: [
+  //     {
+  //       image: `${hanabiWebsite}/alerts.jpg`,
+  //       name: "Alerts",
+  //       count: 4,
+  //       route: "/sections/attention-catchers/alerts",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/toasts.jpg`,
+  //       name: "Notifications",
+  //       count: 3,
+  //       pro: true,
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/popovers.jpg`,
+  //       name: "Tooltips & Popovers",
+  //       count: 2,
+  //       route: "/sections/attention-catchers/tooltips-popovers",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/modals.jpg`,
+  //       name: "Modals",
+  //       count: 5,
+  //       route: "/sections/attention-catchers/modals",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Elements",
+  //   description: "80+ carefully crafted small elements that come with multiple colors and shapes",
+  //   items: [
+  //     {
+  //       image: `${hanabiWebsite}/buttons.jpg`,
+  //       name: "Buttons",
+  //       count: 6,
+  //       route: "/sections/elements/buttons",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/avatars.jpg`,
+  //       name: "Avatars",
+  //       count: 2,
+  //       route: "/sections/elements/avatars",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/dropdowns.jpg`,
+  //       name: "Dropdowns",
+  //       count: 2,
+  //       route: "/sections/elements/dropdowns",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/switch.jpg`,
+  //       name: "Toggles",
+  //       count: 2,
+  //       route: "/sections/elements/toggles",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/social-buttons.jpg`,
+  //       name: "Social Buttons",
+  //       count: 2,
+  //       pro: true,
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/breadcrumbs.jpg`,
+  //       name: "Breadcrumbs",
+  //       count: 1,
+  //       route: "/sections/elements/breadcrumbs",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/badges.jpg`,
+  //       name: "Badges",
+  //       count: 3,
+  //       route: "/sections/elements/badges",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/progress.jpg`,
+  //       name: "Progress Bars",
+  //       count: 4,
+  //       route: "/sections/elements/progress-bars",
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/tables.jpg`,
+  //       name: "Tables",
+  //       count: 3,
+  //       pro: true,
+  //     },
+  //     {
+  //       image: `${hanabiWebsite}/typography.jpg`,
+  //       name: "Typography",
+  //       count: 2,
+  //       route: "/sections/elements/typography",
+  //     },
+  //   ],
+  // },
 ];

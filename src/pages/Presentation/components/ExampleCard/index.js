@@ -73,10 +73,12 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
         src={image}
         alt={name}
         width="100%"
-        height="auto"
+        height="100%"
         display="block"
         margin="auto" // 同時將水平和垂直方向的邊距都設置為 auto，實現置中
         opacity={pro ? 0.6 : 1}
+        backgroundPosition="center"
+        objectFit="cover"
       />
     </MKBox>
   );
