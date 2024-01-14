@@ -21,6 +21,16 @@ const stylish =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2F%E6%88%AA%E5%9C%96%202024-01-07%20%E4%B8%8B%E5%8D%887.54.14.png?alt=media&token=0481f94c-01ab-48bf-9395-29c82c96ceb9";
 const loveVR =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fimg_1_1704627459337.jpg?alt=media&token=3e3adae8-cd67-4b8f-b987-be0f6ef51ca9";
+const mrtNews =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fvideonews.png?alt=media&token=f2d1bf5f-f7ce-4268-8979-8f4dc7221080";
+const schoolZoneSidewalk =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fschool%20zone%20sidewalk.png?alt=media&token=6179cf16-e49f-448a-8687-7fc5a5f511e8";
+const photoOnTaipei =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FphotographonTaipei.png?alt=media&token=1546b622-198d-426f-8499-2af4fa274e1c";
+const suriHello =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FSuriHello.png?alt=media&token=418db0fe-be47-4ef4-9796-51c38c3ab9a9";
+const again =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fagain.png?alt=media&token=40fc948a-79d8-4100-adb4-c8945c2b4890";
 
 export default [
   {
@@ -54,30 +64,42 @@ export default [
       },
     ],
   },
-  // {
-  //   title: "Navigation",
-  //   description: "30+ components that will help go through the pages",
-  //   items: [
-  //     {
-  //       image: `${hanabiWebsite}/navbars.jpg`,
-  //       name: "Navbars",
-  //       count: 4,
-  //       route: "/sections/navigation/navbars",
-  //     },
-  //     {
-  //       image: `${hanabiWebsite}/nav-tabs.jpg`,
-  //       name: "Nav Tabs",
-  //       count: 2,
-  //       route: "/sections/navigation/nav-tabs",
-  //     },
-  //     {
-  //       image: `${hanabiWebsite}/pagination.jpg`,
-  //       name: "Pagination",
-  //       count: 3,
-  //       route: "/sections/navigation/pagination",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Media Productions",
+    description: "As a student of communication college, I spent 4 years on the field of media.",
+    items: [
+      {
+        image: `${mrtNews}`,
+        name: "Report - Taipei MRT 'Family Areas'",
+        count: 4,
+        route: "https://www.peopo.org/news/295529",
+      },
+      {
+        image: `${schoolZoneSidewalk}`,
+        name: "Report - School Zone Sidewalk ",
+        count: 2,
+        route: "https://www.thenewslens.com/article/35185",
+      },
+      {
+        image: `${photoOnTaipei}`,
+        name: "Photo in 'TAIPEI PICTORIAL'",
+        count: 3,
+        route: "https://www.travel.taipei/zh-tw/pictorial/article/8032",
+      },
+      {
+        image: `${suriHello}`,
+        name: "Short Film - 'Suri,Hello'",
+        count: 3,
+        route: "https://www.youtube.com/watch?v=s8eglU-xx8M",
+      },
+      {
+        image: `${again}`,
+        name: "Short Film - 'Again'",
+        count: 3,
+        route: "https://www.youtube.com/watch?v=ih-1w4Lezzk",
+      },
+    ],
+  },
   // {
   //   title: "Input Areas",
   //   description: "50+ elements that you need for text manipulation and insertion",

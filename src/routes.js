@@ -117,7 +117,7 @@ const routes = [
         dropdown: true,
         collapse: [
           {
-            name: "LINE Bank Chatbot",
+            name: "page headers",
             route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },

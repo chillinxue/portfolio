@@ -91,7 +91,7 @@ function View({ children, code, title, height, ...rest }) {
                   }
                   label="Preview"
                 />
-                {/* <Tab
+                <Tab
                   icon={
                     <MKBox
                       component="i"
@@ -102,7 +102,7 @@ function View({ children, code, title, height, ...rest }) {
                     />
                   }
                   label="Code"
-                /> */}
+                />
               </Tabs>
             </AppBar>
           </Grid>
