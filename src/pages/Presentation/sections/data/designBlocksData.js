@@ -31,7 +31,10 @@ const suriHello =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FSuriHello.png?alt=media&token=418db0fe-be47-4ef4-9796-51c38c3ab9a9";
 const again =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fagain.png?alt=media&token=40fc948a-79d8-4100-adb4-c8945c2b4890";
-
+const youthClub =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fyouthclub.png?alt=media&token=56084079-622d-4e97-b2a5-77f6fd9c1e11";
+const filmFestival =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Ffilmfestival.jpeg?alt=media&token=2e255578-556b-4d58-a33e-dfd5e054255b";
 export default [
   {
     title: "Software Products",
@@ -100,36 +103,36 @@ export default [
       },
     ],
   },
-  // {
-  //   title: "Input Areas",
-  //   description: "50+ elements that you need for text manipulation and insertion",
-  //   items: [
-  //     {
-  //       image: `${hanabiWebsite}/newsletters.jpg`,
-  //       name: "Newsletters",
-  //       count: 6,
-  //       pro: true,
-  //     },
-  //     {
-  //       image: `${hanabiWebsite}/contact-sections.jpg`,
-  //       name: "Contact Sections",
-  //       count: 8,
-  //       pro: true,
-  //     },
-  //     {
-  //       image: `${hanabiWebsite}/forms.jpg`,
-  //       name: "Forms",
-  //       count: 3,
-  //       route: "/sections/input-areas/forms",
-  //     },
-  //     {
-  //       image: `${hanabiWebsite}/inputs.jpg`,
-  //       name: "Inputs",
-  //       count: 6,
-  //       route: "/sections/input-areas/inputs",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Activities",
+    description: "The experiences of holding activities.",
+    items: [
+      {
+        image: `${filmFestival}`,
+        name: "Film Festival: 'You Are Not Alone in Depression'",
+        count: 6,
+        pro: false,
+      },
+      {
+        image: `${youthClub}`,
+        name: "NCCU Chinan Youth Club",
+        count: 8,
+        pro: false,
+      },
+      // {
+      //   image: `${hanabiWebsite}/forms.jpg`,
+      //   name: "Forms",
+      //   count: 3,
+      //   route: "/sections/input-areas/forms",
+      // },
+      // {
+      //   image: `${hanabiWebsite}/inputs.jpg`,
+      //   name: "Inputs",
+      //   count: 6,
+      //   route: "/sections/input-areas/inputs",
+      // },
+    ],
+  },
   // {
   //   title: "Attention Catchers",
   //   description: "20+ Fully coded components that popup from different places of the screen",
