@@ -107,7 +107,7 @@ function Information() {
                       Chatbot Product Manager
                       <br />
                       • AppWorks School (boot camp)
-                      <br /> Front-end Enigneer
+                      <br /> Front-end Engineer
                     </>
                   }
                 />
