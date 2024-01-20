@@ -45,7 +45,7 @@ export default [
         image: `${lineBankChatbot}`,
         name: "LINE Bank - Banking Chatbot",
         count: 10,
-        route: "https://line.me/R/ti/p/@linebanktw#~",
+        route: "/sections/page-sections/features",
       },
       {
         image: `${hanabiWebsite}`,

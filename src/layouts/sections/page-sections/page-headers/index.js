@@ -18,7 +18,7 @@ import BaseLayout from "layouts/sections/components/BaseLayout";
 import View from "layouts/sections/components/View";
 
 // PageHeaders page components
-import HeaderOne from "layouts/sections/page-sections/page-headers/components/HeaderOne";
+import HanabiOne from "layouts/sections/page-sections/page-headers/components/HeaderOne";
 import HeaderTwo from "layouts/sections/page-sections/page-headers/components/HeaderTwo";
 
 // PageHeaders page components code
@@ -34,7 +34,7 @@ function PageHeaders() {
       ]}
     >
       <View title="Main Page" code={headerOneCode} height="40rems">
-        <HeaderOne />
+        <HanabiOne />
       </View>
       <View title="Introduction" code={headerOneCode} height="111rem">
         <HeaderTwo />

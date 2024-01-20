@@ -22,16 +22,20 @@ import FeaturesOne from "layouts/sections/page-sections/featuers/components/Feat
 
 // Features page components code
 import featuresOneCode from "layouts/sections/page-sections/featuers/components/FeaturesOne/code";
+import HeaderOne from "layouts/sections/page-sections/featuers/components/HeaderOne";
 
 function Features() {
   return (
     <BaseLayout
-      title="Features"
+      title="LINE Bank Customers Service Chatbot"
       breadcrumb={[
         { label: "Page Sections", route: "/sections/page-sections/features" },
         { label: "Features" },
       ]}
     >
+      <View title="Features 1" code={featuresOneCode}>
+        <HeaderOne></HeaderOne>
+      </View>
       <View title="Features 1" code={featuresOneCode}>
         <FeaturesOne />
       </View>

@@ -59,7 +59,7 @@ function View({ children, code, height, ...rest }) {
       position="relative"
       borderRadius="xl"
       shadow="lg"
-      mb={12}
+      mb={6}
       sx={{ overflow: "hidden" }}
       {...rest}
     >
@@ -70,7 +70,7 @@ function View({ children, code, height, ...rest }) {
             `${borderWidth[1]} solid ${borderColor}`,
         }}
       >
-        <Grid container spacing={2} justifyContent="space-between" py={1}>
+        <Grid container spacing={0} justifyContent="space-between" py={0}>
           <Grid item xs={12} lg={3}>
             {/* <MKTypography variant="body1" pt={0.5}>
               {title}
