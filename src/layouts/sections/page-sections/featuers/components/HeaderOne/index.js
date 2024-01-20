@@ -48,8 +48,8 @@ function HeaderOne() {
             `${linearGradient(
               rgba(gradients.dark.main, 0.5),
               rgba(gradients.dark.state, 0.5)
-            )}, url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbotPoster.png?alt=media&token=d17b683b-8552-46f8-bf0f-e64cb6065f00")`,
-          backgroundSize: "contain",
+            )}, url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbotPoster.png?alt=media&token=5717c32c-f0ae-4b1f-8555-6ba1096565cc")`,
+          backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "35rem",
           minWidth: "100%",
