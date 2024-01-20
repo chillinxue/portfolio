@@ -28,6 +28,12 @@ import MKTypography from "components/MKTypography";
 // import bgImage from "assets/images/bg-coworking.jpeg";
 
 function HeaderOne() {
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: window.scrollY + 45 * parseFloat(getComputedStyle(document.documentElement).fontSize),
+      behavior: "smooth",
+    });
+  };
   return (
     <MKBox component="header" position="relative" height="100%">
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
@@ -188,7 +194,7 @@ function HeaderOne() {
               <MKButton color="white" href="https://hanabi-f5ee3.web.app/home">
                 Go to Website
               </MKButton>
-              <MKButton variant="text" color="white">
+              <MKButton variant="text" color="white" onClick={scrollToBottom}>
                 Read more
               </MKButton>
             </Stack>
