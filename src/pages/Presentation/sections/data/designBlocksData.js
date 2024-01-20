@@ -14,7 +14,7 @@ Coded by www.creative-tim.com
 */
 
 const lineBankChatbot =
-  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FLINE%20Bank%20Chatbot.png?alt=media&token=9d567812-8f41-4cf0-becf-4c330de79658";
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbotPoster.png?alt=media&token=5717c32c-f0ae-4b1f-8555-6ba1096565cc";
 const hanabiWebsite =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FHanabiWebsite.png?alt=media&token=88f1d2d2-7c72-4a36-a6ba-7eebcd606079";
 const stylish =
