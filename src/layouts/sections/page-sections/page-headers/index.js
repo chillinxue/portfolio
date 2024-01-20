@@ -33,10 +33,10 @@ function PageHeaders() {
         { label: "hanabi" },
       ]}
     >
-      <View title="Feature Introduction" code={headerOneCode} height="40rem">
+      <View title="Main Page" code={headerOneCode} height="40rems">
         <HeaderOne />
       </View>
-      <View title="Main Page">
+      <View title="Introduction" code={headerOneCode} height="111rem">
         <HeaderTwo />
       </View>
     </BaseLayout>

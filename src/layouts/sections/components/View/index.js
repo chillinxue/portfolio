@@ -28,8 +28,8 @@ import { prism } from "react-syntax-highlighter/dist/esm/styles/prism";
 // @mui material components
 import Grid from "@mui/material/Grid";
 import AppBar from "@mui/material/AppBar";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
+// import Tabs from "@mui/material/Tabs";
+// import Tab from "@mui/material/Tab";
 import Slide from "@mui/material/Slide";
 
 // Material Kit 2 React components
@@ -41,13 +41,13 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React base styles
 import colors from "assets/theme/base/colors";
 
-function View({ children, code, title, height, ...rest }) {
+function View({ children, code, height, ...rest }) {
   const { grey } = colors;
 
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab] = useState(0);
   const [success, setSuccess] = useState(false);
 
-  const handleTabType = (event, newValue) => setActiveTab(newValue);
+  // const handleTabType = (event, newValue) => setActiveTab(newValue);
 
   useEffect(() => {
     setTimeout(() => setSuccess(false), 3000);
@@ -72,13 +72,13 @@ function View({ children, code, title, height, ...rest }) {
       >
         <Grid container spacing={2} justifyContent="space-between" py={1}>
           <Grid item xs={12} lg={3}>
-            <MKTypography variant="body1" pt={0.5}>
+            {/* <MKTypography variant="body1" pt={0.5}>
               {title}
-            </MKTypography>
+            </MKTypography> */}
           </Grid>
           <Grid item xs={12} lg={3}>
             <AppBar position="static">
-              <Tabs value={activeTab} onChange={handleTabType}>
+              {/* <Tabs value={activeTab} onChange={handleTabType}>
                 <Tab
                   icon={
                     <MKBox
@@ -103,7 +103,7 @@ function View({ children, code, title, height, ...rest }) {
                   }
                   label="Code"
                 />
-              </Tabs>
+              </Tabs> */}
             </AppBar>
           </Grid>
         </Grid>
@@ -114,7 +114,7 @@ function View({ children, code, title, height, ...rest }) {
             bgColor="grey-100"
             width="100%"
             height={height}
-            maxHeight="40rem"
+            maxHeight="auto"
             borderRadius="xl"
             sx={{ overflowX: "hidden", overflowY: "scroll" }}
           >

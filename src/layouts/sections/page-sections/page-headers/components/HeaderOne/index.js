@@ -146,7 +146,7 @@ function HeaderOne() {
       <MKBox
         display="flex"
         alignItems="center"
-        minHeight="100%"
+        minHeight="40rem"
         sx={{
           backgroundImage: ({ palette: { gradients }, functions: { linearGradient, rgba } }) =>
             `${linearGradient(

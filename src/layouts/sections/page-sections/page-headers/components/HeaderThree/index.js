@@ -24,7 +24,7 @@ import MKBox from "components/MKBox";
 // Images
 // import bgImage from "assets/images/bg-coworking.jpeg";
 
-function HeaderTwo() {
+function HeaderThree() {
   return (
     <MKBox component="header" position="relative" height="100%">
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
@@ -44,53 +44,9 @@ function HeaderTwo() {
       <MKBox
         display="flex"
         alignItems="center"
-        minHeight="37rem"
+        minHeight="100%"
         sx={{
           backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fhanabi1.png?alt=media&token=b7dd233e-b828-4c54-bd47-0966bd349808")`,
-          backgroundSize: "contain",
-          backgroundPosition: "center",
-        }}
-      >
-        <Container>
-          <Grid
-            container
-            item
-            xs={12}
-            md={7}
-            lg={6}
-            flexDirection="column"
-            justifyContent="center"
-          ></Grid>
-        </Container>
-      </MKBox>
-      <MKBox
-        display="flex"
-        alignItems="center"
-        minHeight="37rem"
-        sx={{
-          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fhanabi2.png?alt=media&token=bb02b62a-4c68-48f0-8613-ba29083e7f18")`,
-          backgroundSize: "contain",
-          backgroundPosition: "center",
-        }}
-      >
-        <Container>
-          <Grid
-            container
-            item
-            xs={12}
-            md={7}
-            lg={6}
-            flexDirection="column"
-            justifyContent="center"
-          ></Grid>
-        </Container>
-      </MKBox>
-      <MKBox
-        display="flex"
-        alignItems="center"
-        minHeight="37rem"
-        sx={{
-          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fhanabi3.png?alt=media&token=5a667f63-ae6c-49f2-a8cd-4a164e7ab6bf")`,
           backgroundSize: "contain",
           backgroundPosition: "center",
         }}
@@ -111,4 +67,4 @@ function HeaderTwo() {
   );
 }
 
-export default HeaderTwo;
+export default HeaderThree;
