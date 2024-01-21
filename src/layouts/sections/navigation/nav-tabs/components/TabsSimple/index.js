@@ -1,5 +1,4 @@
-/* eslint-disable no-param-reassign */
-/**
+/*
 =========================================================
 * Material Kit 2 React - v2.1.0
 =========================================================
@@ -14,32 +13,79 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import AppBar from "@mui/material/AppBar";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
 
-function TabsSimple() {
-  const [activeTab, setActiveTab] = useState(0);
+// Material Kit 2 React components
+import MKBox from "components/MKBox";
 
-  const handleTabType = (event, newValue) => setActiveTab(newValue);
-
+function FeaturesOne() {
   return (
-    <Container>
-      <Grid container item justifyContent="center" xs={12} lg={4} mx="auto">
-        <AppBar position="static">
-          <Tabs value={activeTab} onChange={handleTabType}>
-            <Tab label="My Profile" />
-            <Tab label="Dashboard" />
-          </Tabs>
-        </AppBar>
-      </Grid>
-    </Container>
+    <MKBox component="header" position="relative" height="100%">
+      <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
+        <Container>
+          <Grid container flexDirection="row" alignItems="center">
+            <MKBox
+              component="ul"
+              display={{ xs: "none", lg: "flex" }}
+              p={0}
+              my={0}
+              mx="auto"
+              sx={{ listStyle: "none" }}
+            ></MKBox>
+          </Grid>
+        </Container>
+      </MKBox>
+      <MKBox
+        display="flex"
+        alignItems="center"
+        minHeight="35rem"
+        minWidth="100%"
+        sx={{
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FVR360%201.png?alt=media&token=be2a87ab-ca6c-4bbf-89e3-e77981fb5f5d")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            md={7}
+            lg={6}
+            flexDirection="column"
+            justifyContent="center"
+          ></Grid>
+        </Container>
+      </MKBox>
+      <MKBox
+        display="flex"
+        alignItems="center"
+        minHeight="35rem"
+        minWidth="100%"
+        sx={{
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FVR%20360%202.png?alt=media&token=9197297c-daf4-4fb7-80e7-3482199ef5f5")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            md={7}
+            lg={6}
+            flexDirection="column"
+            justifyContent="center"
+          ></Grid>
+        </Container>
+      </MKBox>
+    </MKBox>
   );
 }
 
-export default TabsSimple;
+export default FeaturesOne;

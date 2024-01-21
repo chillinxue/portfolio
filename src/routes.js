@@ -140,7 +140,7 @@ const routes = [
           },
           {
             name: "nav tabs",
-            route: "/sections/navigation/xuexue",
+            route: "/sections/navigation/vr360",
             component: <NavTabs />,
           },
           {

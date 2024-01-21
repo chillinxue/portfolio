@@ -22,6 +22,7 @@ import View from "layouts/sections/components/View";
 
 // Stats page components
 import TabsSimple from "layouts/sections/navigation/nav-tabs/components/TabsSimple";
+import HeaderOne from "layouts/sections/navigation/nav-tabs/components/TabsSimple/HeaderOne";
 
 // Stats page components code
 import tabsSimpleCode from "layouts/sections/navigation/nav-tabs/components/TabsSimple/code";
@@ -29,14 +30,19 @@ import tabsSimpleCode from "layouts/sections/navigation/nav-tabs/components/Tabs
 function NavTabs() {
   return (
     <BaseLayout
-      title="Nav Tabs"
+      title="VR Game - Love 360"
       breadcrumb={[
         { label: "Page Sections", route: "/sections/navigation/nav-tabs" },
         { label: "Nav Tabs" },
       ]}
     >
       <View title="Tabs simple" code={tabsSimpleCode}>
-        <MKBox bgColor="white" py={6}>
+        <MKBox bgColor="white">
+          <HeaderOne />
+        </MKBox>
+      </View>
+      <View title="Tabs simple" code={tabsSimpleCode}>
+        <MKBox bgColor="white">
           <TabsSimple />
         </MKBox>
       </View>

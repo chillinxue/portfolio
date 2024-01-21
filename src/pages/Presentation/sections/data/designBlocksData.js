@@ -63,7 +63,7 @@ export default [
         image: `${loveVR}`,
         name: "VR Game: Love 360",
         count: 1,
-        route: "https://www.youtube.com/watch?v=BjERzl_cCZU",
+        route: "/sections/navigation/vr360",
       },
     ],
   },
