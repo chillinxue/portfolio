@@ -57,7 +57,7 @@ export default [
         image: `${stylish}`,
         name: "E-commerce Website - STYLiSH",
         count: 8,
-        route: "https://fir-hosting-service-84127.web.app/products.html",
+        route: "/sections/navigation/navbars",
       },
       {
         image: `${loveVR}`,

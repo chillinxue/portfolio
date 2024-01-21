@@ -25,16 +25,22 @@ import NavbarDark from "layouts/sections/navigation/navbars/components/NavbarDar
 
 // Stats page components code
 import navbarDarkCode from "layouts/sections/navigation/navbars/components/NavbarDark/code";
+import HeaderOne from "layouts/sections/navigation/navbars/components/HeaderOne";
 
 function Navbars() {
   return (
     <BaseLayout
-      title="Navbars"
+      title="Clothing E-commerce Website - STYLiSH"
       breadcrumb={[
         { label: "Page Sections", route: "/sections/navigation/navbars" },
         { label: "Navbars" },
       ]}
     >
+      <View title="Navbar dark" code={navbarDarkCode}>
+        <MKBox py={6}>
+          <HeaderOne />
+        </MKBox>
+      </View>
       <View title="Navbar dark" code={navbarDarkCode}>
         <MKBox py={6}>
           <NavbarDark />
