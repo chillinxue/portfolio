@@ -117,13 +117,13 @@ const routes = [
         dropdown: true,
         collapse: [
           {
-            name: "page headers",
-            route: "/sections/page-sections/page-headers",
+            name: "hanabi",
+            route: "/sections/page-sections/hanabi",
             component: <PageHeaders />,
           },
           {
             name: "features",
-            route: "/sections/page-sections/features",
+            route: "/sections/page-sections/linebankchatbot",
             component: <Features />,
           },
         ],
@@ -135,12 +135,12 @@ const routes = [
         collapse: [
           {
             name: "navbars",
-            route: "/sections/navigation/navbars",
+            route: "/sections/navigation/stylish",
             component: <Navbars />,
           },
           {
             name: "nav tabs",
-            route: "/sections/navigation/nav-tabs",
+            route: "/sections/navigation/xuexue",
             component: <NavTabs />,
           },
           {

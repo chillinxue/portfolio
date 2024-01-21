@@ -45,19 +45,19 @@ export default [
         image: `${lineBankChatbot}`,
         name: "LINE Bank - Banking Chatbot",
         count: 10,
-        route: "/sections/page-sections/features",
+        route: "/sections/page-sections/linebankchatbot",
       },
       {
         image: `${hanabiWebsite}`,
         name: "Travel Planning Website - HANABI",
         count: 14,
-        route: "/sections/page-sections/page-headers",
+        route: "/sections/page-sections/hanabi",
       },
       {
         image: `${stylish}`,
         name: "E-commerce Website - STYLiSH",
         count: 8,
-        route: "/sections/navigation/navbars",
+        route: "/sections/navigation/stylish",
       },
       {
         image: `${loveVR}`,
