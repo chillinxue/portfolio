@@ -131,8 +131,7 @@ export default [
   },
   {
     title: "Analytics",
-    description:
-      "As a student with an advertising background, I prioritize analytics before product launches.",
+    description: "With an advertising background, I prioritize analytics before product launches.",
     items: [
       {
         image: `${icrt}`,
@@ -156,7 +155,7 @@ export default [
       },
       {
         image: `${prAward}`,
-        name: "Public Relations Research: Healthcare - PRWeek UK Awards 2016",
+        name: "Public Relations Research: PRWeek Asia Awards 2016",
         count: 6,
         pro: false,
       },
