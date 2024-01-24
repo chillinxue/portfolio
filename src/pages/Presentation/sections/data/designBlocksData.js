@@ -43,6 +43,17 @@ const sharingInNccu =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FIMG_3300_Original.jpeg?alt=media&token=fccdb78b-4ad2-458f-a3cf-aac5723bb497";
 const oneMillion =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FIMG_8601.jpeg?alt=media&token=7cc69788-017b-46d6-94f1-6e3447b5bdd7";
+const icrt =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FICRT.jpg?alt=media&token=6d2699f8-fc37-4685-a075-5bb1733a7f98";
+const redPocket =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FRed%20Pocket.png?alt=media&token=c44e5e38-1a47-42d4-9dc9-b070e3e14b52";
+const inventec =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FInventec.png?alt=media&token=6f5a369f-5722-456c-a578-f4f50869183f";
+const prAward =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FPR%20-%20HealthCare.png?alt=media&token=b17fd5fb-5fb7-40e2-9b5e-3139bade86a4";
+const magazine =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FSelf-Crafted%20Magazine.png?alt=media&token=925e2f4c-8c31-4ae7-8c09-066126014d59";
+
 export default [
   {
     title: "Software Products",
@@ -108,6 +119,46 @@ export default [
         name: "Short Film - 'Again'",
         count: 3,
         route: "https://www.youtube.com/watch?v=ih-1w4Lezzk",
+      },
+      {
+        image: `${magazine}`,
+        name: "Self-Crafted Magazine: Photography and Layout",
+        count: 1,
+        route:
+          "https://drive.google.com/file/d/1xKsfnmUaGPNTiTa5oaWGq7nNkqXr4QPB/view?usp=drive_link",
+      },
+    ],
+  },
+  {
+    title: "Analytics",
+    description:
+      "As a student with an advertising background, I prioritize analytics before product launches.",
+    items: [
+      {
+        image: `${icrt}`,
+        name: "The ICRT Radio Marketing Strategies",
+        count: 6,
+        pro: false,
+        route: "https://drive.google.com/file/d/1uA-FeM01_4gE8A6pP31dROz1YmKb7-HB/view?usp=sharing",
+      },
+      {
+        image: `${redPocket}`,
+        name: "User Behavior Research in China : Online Red Packet Sharing",
+        count: 6,
+        pro: false,
+        route: "https://drive.google.com/file/d/1CtPE-KygT7BJhlDaDIPGExJVzTZMYbbO/view?usp=sharing",
+      },
+      {
+        image: `${inventec}`,
+        name: "Public Relations Research: Inventec",
+        count: 6,
+        pro: false,
+      },
+      {
+        image: `${prAward}`,
+        name: "Public Relations Research: Healthcare - PRWeek UK Awards 2016",
+        count: 6,
+        pro: false,
       },
     ],
   },
