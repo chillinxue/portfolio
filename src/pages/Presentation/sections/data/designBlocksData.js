@@ -35,6 +35,12 @@ const youthClub =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fyouthclub.png?alt=media&token=56084079-622d-4e97-b2a5-77f6fd9c1e11";
 const filmFestival =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Ffilmfestival.jpeg?alt=media&token=2e255578-556b-4d58-a33e-dfd5e054255b";
+const lineBankLaunching =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FIMG_8587.jpeg?alt=media&token=1a283e1d-ef66-46a8-ae0c-0a67d6bba4d5";
+const sharingInNccu =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FIMG_3300_Original.jpeg?alt=media&token=fccdb78b-4ad2-458f-a3cf-aac5723bb497";
+const oneMillion =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FIMG_8601.jpeg?alt=media&token=7cc69788-017b-46d6-94f1-6e3447b5bdd7";
 export default [
   {
     title: "Software Products",
@@ -107,6 +113,24 @@ export default [
     title: "Activities",
     description: "The experiences of holding activities.",
     items: [
+      {
+        image: `${lineBankLaunching}`,
+        name: "LINE Bank Taiwan Launching",
+        count: 6,
+        pro: false,
+      },
+      {
+        image: `${sharingInNccu}`,
+        name: "Chatbot Sharing Session in NCCU",
+        count: 6,
+        pro: false,
+      },
+      {
+        image: `${oneMillion}`,
+        name: "LINE Bank Accounts to 1 Million",
+        count: 6,
+        pro: false,
+      },
       {
         image: `${filmFestival}`,
         name: "Film Festival: 'You Are Not Alone in Depression'",
