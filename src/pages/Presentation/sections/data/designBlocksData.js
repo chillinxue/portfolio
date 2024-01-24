@@ -37,6 +37,8 @@ const filmFestival =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Ffilmfestival.jpeg?alt=media&token=2e255578-556b-4d58-a33e-dfd5e054255b";
 const lineBankLaunching =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FIMG_8587.jpeg?alt=media&token=1a283e1d-ef66-46a8-ae0c-0a67d6bba4d5";
+const summaCumLaude =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FGraduated%20Summa%20Cum%20Laude%20.png?alt=media&token=51b00bbb-0496-45f0-b089-1bf29debc971";
 const sharingInNccu =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FIMG_3300_Original.jpeg?alt=media&token=fccdb78b-4ad2-458f-a3cf-aac5723bb497";
 const oneMillion =
@@ -110,8 +112,8 @@ export default [
     ],
   },
   {
-    title: "Activities",
-    description: "The experiences of holding activities.",
+    title: "Achievements",
+    description: "The milestones in my life.",
     items: [
       {
         image: `${lineBankLaunching}`,
@@ -120,14 +122,26 @@ export default [
         pro: false,
       },
       {
-        image: `${sharingInNccu}`,
-        name: "Chatbot Sharing Session in NCCU",
+        image: `${oneMillion}`,
+        name: "LINE Bank Accounts to 1 Million",
         count: 6,
         pro: false,
       },
       {
-        image: `${oneMillion}`,
-        name: "LINE Bank Accounts to 1 Million",
+        image: `${summaCumLaude}`,
+        name: "Graduated Summa Cum Laude",
+        count: 6,
+        pro: false,
+      },
+    ],
+  },
+  {
+    title: "Activities",
+    description: "The experiences of holding activities.",
+    items: [
+      {
+        image: `${sharingInNccu}`,
+        name: "Chatbot Sharing Session in NCCU",
         count: 6,
         pro: false,
       },
@@ -143,18 +157,6 @@ export default [
         count: 8,
         pro: false,
       },
-      // {
-      //   image: `${hanabiWebsite}/forms.jpg`,
-      //   name: "Forms",
-      //   count: 3,
-      //   route: "/sections/input-areas/forms",
-      // },
-      // {
-      //   image: `${hanabiWebsite}/inputs.jpg`,
-      //   name: "Inputs",
-      //   count: 6,
-      //   route: "/sections/input-areas/inputs",
-      // },
     ],
   },
   // {
