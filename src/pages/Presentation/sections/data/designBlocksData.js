@@ -53,7 +53,10 @@ const prAward =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FPR%20-%20HealthCare.png?alt=media&token=b17fd5fb-5fb7-40e2-9b5e-3139bade86a4";
 const magazine =
   "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FSelf-Crafted%20Magazine.png?alt=media&token=925e2f4c-8c31-4ae7-8c09-066126014d59";
-
+const finance =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fphoto-output.png?alt=media&token=8ee52ab9-c091-4d73-913a-609f653e6a97";
+const appworksCertificate =
+  "https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FAppworks%20certificate.png?alt=media&token=56b3d1a6-557e-40b3-96a8-ecd621f37787";
 export default [
   {
     title: "Software Products",
@@ -83,6 +86,38 @@ export default [
         name: "VR Game: Love 360",
         count: 1,
         route: "/sections/navigation/vr360",
+      },
+    ],
+  },
+  {
+    title: "Analytics",
+    description: "With an advertising background, I prioritize analytics before product launches.",
+    items: [
+      {
+        image: `${icrt}`,
+        name: "The ICRT Radio Marketing Strategies",
+        count: 6,
+        pro: false,
+        route: "https://drive.google.com/file/d/1uA-FeM01_4gE8A6pP31dROz1YmKb7-HB/view?usp=sharing",
+      },
+      {
+        image: `${redPocket}`,
+        name: "User Behavior Research in China : Online Red Packet Sharing",
+        count: 6,
+        pro: false,
+        route: "https://drive.google.com/file/d/1CtPE-KygT7BJhlDaDIPGExJVzTZMYbbO/view?usp=sharing",
+      },
+      {
+        image: `${inventec}`,
+        name: "Public Relations Research: Inventec",
+        count: 6,
+        pro: false,
+      },
+      {
+        image: `${prAward}`,
+        name: "Public Relations Research: PRWeek Asia Awards 2016",
+        count: 6,
+        pro: false,
       },
     ],
   },
@@ -126,38 +161,6 @@ export default [
         count: 1,
         route:
           "https://drive.google.com/file/d/1xKsfnmUaGPNTiTa5oaWGq7nNkqXr4QPB/view?usp=drive_link",
-      },
-    ],
-  },
-  {
-    title: "Analytics",
-    description: "With an advertising background, I prioritize analytics before product launches.",
-    items: [
-      {
-        image: `${icrt}`,
-        name: "The ICRT Radio Marketing Strategies",
-        count: 6,
-        pro: false,
-        route: "https://drive.google.com/file/d/1uA-FeM01_4gE8A6pP31dROz1YmKb7-HB/view?usp=sharing",
-      },
-      {
-        image: `${redPocket}`,
-        name: "User Behavior Research in China : Online Red Packet Sharing",
-        count: 6,
-        pro: false,
-        route: "https://drive.google.com/file/d/1CtPE-KygT7BJhlDaDIPGExJVzTZMYbbO/view?usp=sharing",
-      },
-      {
-        image: `${inventec}`,
-        name: "Public Relations Research: Inventec",
-        count: 6,
-        pro: false,
-      },
-      {
-        image: `${prAward}`,
-        name: "Public Relations Research: PRWeek Asia Awards 2016",
-        count: 6,
-        pro: false,
       },
     ],
   },
@@ -209,36 +212,25 @@ export default [
       },
     ],
   },
-  // {
-  //   title: "Attention Catchers",
-  //   description: "20+ Fully coded components that popup from different places of the screen",
-  //   items: [
-  //     {
-  //       image: `${hanabiWebsite}/alerts.jpg`,
-  //       name: "Alerts",
-  //       count: 4,
-  //       route: "/sections/attention-catchers/alerts",
-  //     },
-  //     {
-  //       image: `${hanabiWebsite}/toasts.jpg`,
-  //       name: "Notifications",
-  //       count: 3,
-  //       pro: true,
-  //     },
-  //     {
-  //       image: `${hanabiWebsite}/popovers.jpg`,
-  //       name: "Tooltips & Popovers",
-  //       count: 2,
-  //       route: "/sections/attention-catchers/tooltips-popovers",
-  //     },
-  //     {
-  //       image: `${hanabiWebsite}/modals.jpg`,
-  //       name: "Modals",
-  //       count: 5,
-  //       route: "/sections/attention-catchers/modals",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Certificates",
+    description:
+      "I use these certificates to demonstrate my continuous commitment to challenging myself.",
+    items: [
+      {
+        image: `${appworksCertificate}`,
+        name: "AppWorks School Front-End Class Certificate",
+        count: 4,
+        pro: false,
+      },
+      {
+        image: `${finance}`,
+        name: "Taiwan Academy of Banking and Finance - Proficiency Test for Bank Internal Control and Audit",
+        count: 3,
+        pro: false,
+      },
+    ],
+  },
   // {
   //   title: "Elements",
   //   description: "80+ carefully crafted small elements that come with multiple colors and shapes",
