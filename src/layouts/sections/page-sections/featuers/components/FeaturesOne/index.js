@@ -43,7 +43,7 @@ function FeaturesOne() {
         minHeight="35rem"
         minWidth="100%"
         sx={{
-          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbot1.png?alt=media&token=c4d8608b-1f90-4c8c-bd86-9cceb291a63c")`,
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbot%201.png?alt=media&token=5d806183-fc57-40c7-b4f7-cae96520e910")`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
