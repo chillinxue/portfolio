@@ -45,7 +45,31 @@ function FeaturesOne() {
         sx={{
           backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbot1.png?alt=media&token=c4d8608b-1f90-4c8c-bd86-9cceb291a63c")`,
           backgroundSize: "contain",
-          // backgroundRepeat: "no-repeat",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            md={7}
+            lg={6}
+            flexDirection="column"
+            justifyContent="center"
+          ></Grid>
+        </Container>
+      </MKBox>
+      <MKBox
+        display="flex"
+        alignItems="center"
+        minHeight="35rem"
+        minWidth="100%"
+        sx={{
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbot%201.1.png?alt=media&token=5258885a-5e9d-47e3-8184-74d9a57af557")`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
         }}
       >
@@ -68,6 +92,7 @@ function FeaturesOne() {
         sx={{
           backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbot2.png?alt=media&token=eef9399f-c0e4-49bf-9dcd-49071f41e388")`,
           backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
         }}
       >
