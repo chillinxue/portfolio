@@ -90,7 +90,7 @@ function FeaturesOne() {
         alignItems="center"
         minHeight="35rem"
         sx={{
-          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbot2.png?alt=media&token=eef9399f-c0e4-49bf-9dcd-49071f41e388")`,
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbot%202.png?alt=media&token=adba7eaf-162c-455b-bd94-c891c54198ea")`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
