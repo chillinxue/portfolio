@@ -20,7 +20,7 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 
-function FeaturesOne() {
+function StylishDescribePage() {
   return (
     <MKBox component="header" position="relative" height="100%">
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
@@ -44,8 +44,9 @@ function FeaturesOne() {
         minWidth="100%"
         sx={{
           backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FSTYLiSH%201.png?alt=media&token=8e6a14c0-2399-45a9-b99c-83f5fb898146")`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <Container>
@@ -67,7 +68,31 @@ function FeaturesOne() {
         minWidth="100%"
         sx={{
           backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FSTYLiSH%202.png?alt=media&token=d6698ec3-3a2c-4e04-ad96-cfa97b887c4d")`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            md={7}
+            lg={6}
+            flexDirection="column"
+            justifyContent="center"
+          ></Grid>
+        </Container>
+      </MKBox>
+      <MKBox
+        display="flex"
+        alignItems="center"
+        minHeight="35rem"
+        minWidth="100%"
+        sx={{
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FStylish%203.png?alt=media&token=d331051f-56bd-49cb-802d-f0fca33fc6e7")`,
+          backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
@@ -88,4 +113,4 @@ function FeaturesOne() {
   );
 }
 
-export default FeaturesOne;
+export default StylishDescribePage;

@@ -27,7 +27,7 @@ import HeaderOne from "layouts/sections/navigation/nav-tabs/components/TabsSimpl
 // Stats page components code
 import tabsSimpleCode from "layouts/sections/navigation/nav-tabs/components/TabsSimple/code";
 
-function NavTabs() {
+function VrMainPage() {
   return (
     <BaseLayout
       title="VR Game - Love 360"
@@ -50,4 +50,4 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+export default VrMainPage;

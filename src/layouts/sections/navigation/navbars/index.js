@@ -27,7 +27,7 @@ import NavbarDark from "layouts/sections/navigation/navbars/components/NavbarDar
 import navbarDarkCode from "layouts/sections/navigation/navbars/components/NavbarDark/code";
 import HeaderOne from "layouts/sections/navigation/navbars/components/HeaderOne";
 
-function Navbars() {
+function StylishMainPage() {
   return (
     <BaseLayout
       title="Clothing E-commerce Website - STYLiSH"
@@ -50,4 +50,4 @@ function Navbars() {
   );
 }
 
-export default Navbars;
+export default StylishMainPage;
