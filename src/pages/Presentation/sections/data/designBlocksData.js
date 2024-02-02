@@ -173,6 +173,7 @@ export default [
         name: "LINE Bank Taiwan Launching",
         count: 6,
         pro: false,
+        description: "Check how you can integrate our plugins",
       },
       {
         image: `${oneMillion}`,

@@ -20,7 +20,7 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 
-function FeaturesOne() {
+function LineBankPage() {
   return (
     <MKBox component="header" position="relative" height="100%">
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
@@ -67,7 +67,7 @@ function FeaturesOne() {
         minHeight="35rem"
         minWidth="100%"
         sx={{
-          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2FChatbot%201.1.png?alt=media&token=5258885a-5e9d-47e3-8184-74d9a57af557")`,
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fchatbot%201.1.png?alt=media&token=3c8e4b6c-2036-4c25-b343-3a07485c8dc1")`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
@@ -108,8 +108,31 @@ function FeaturesOne() {
           ></Grid>
         </Container>
       </MKBox>
+      <MKBox
+        display="flex"
+        alignItems="center"
+        minHeight="35rem"
+        sx={{
+          backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/portfolio-d723c.appspot.com/o/presentation%20-%20poster%2Fchatbot%203.png?alt=media&token=789535ee-5977-4c5c-9352-1da7147d3475")`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            md={7}
+            lg={6}
+            flexDirection="column"
+            justifyContent="center"
+          ></Grid>
+        </Container>
+      </MKBox>
     </MKBox>
   );
 }
 
-export default FeaturesOne;
+export default LineBankPage;
