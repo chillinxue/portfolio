@@ -24,7 +24,7 @@ import HeaderTwo from "layouts/sections/page-sections/page-headers/components/He
 // PageHeaders page components code
 import headerOneCode from "layouts/sections/page-sections/page-headers/components/HeaderOne/code";
 
-function PageHeaders() {
+function VrMainPage() {
   return (
     <BaseLayout
       title="Travel Planning Website - HANABI"
@@ -43,4 +43,4 @@ function PageHeaders() {
   );
 }
 
-export default PageHeaders;
+export default VrMainPage;
