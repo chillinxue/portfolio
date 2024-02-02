@@ -27,7 +27,7 @@ import MKTypography from "components/MKTypography";
 // Images
 // import bgImage from "assets/images/bg-coworking.jpeg";
 
-function HeaderOne() {
+function LineBankPosterPage() {
   const scrollToBottom = () => {
     window.scrollTo({
       top: window.scrollY + 45 * parseFloat(getComputedStyle(document.documentElement).fontSize),
@@ -99,4 +99,4 @@ function HeaderOne() {
   );
 }
 
-export default HeaderOne;
+export default LineBankPosterPage;

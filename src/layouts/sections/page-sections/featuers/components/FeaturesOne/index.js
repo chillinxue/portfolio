@@ -20,7 +20,7 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 
-function LineBankPage() {
+function LineBankDescribePage() {
   return (
     <MKBox component="header" position="relative" height="100%">
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
@@ -135,4 +135,4 @@ function LineBankPage() {
   );
 }
 
-export default LineBankPage;
+export default LineBankDescribePage;

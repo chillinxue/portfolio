@@ -24,7 +24,7 @@ import HeaderTwo from "layouts/sections/page-sections/page-headers/components/He
 // PageHeaders page components code
 import headerOneCode from "layouts/sections/page-sections/page-headers/components/HeaderOne/code";
 
-function VrMainPage() {
+function HanabiMainPage() {
   return (
     <BaseLayout
       title="Travel Planning Website - HANABI"
@@ -36,11 +36,11 @@ function VrMainPage() {
       <View title="Main Page" code={headerOneCode} height="40rems">
         <HanabiOne />
       </View>
-      <View title="Introduction" code={headerOneCode} height="111rem">
+      <View title="Introduction" code={headerOneCode}>
         <HeaderTwo />
       </View>
     </BaseLayout>
   );
 }
 
-export default VrMainPage;
+export default HanabiMainPage;

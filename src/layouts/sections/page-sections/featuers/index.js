@@ -24,7 +24,7 @@ import FeaturesOne from "layouts/sections/page-sections/featuers/components/Feat
 import featuresOneCode from "layouts/sections/page-sections/featuers/components/FeaturesOne/code";
 import HeaderOne from "layouts/sections/page-sections/featuers/components/HeaderOne";
 
-function Features() {
+function LineBankMainPage() {
   return (
     <BaseLayout
       title="LINE Bank Customers Service Chatbot"
@@ -43,4 +43,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default LineBankMainPage;
